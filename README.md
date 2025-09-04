@@ -14,3 +14,53 @@ Project 2 under the Odin Project foundations course, focusing on HTML and CSS
 
 6. Do not worry about making your project look nice on a mobile device. We’ll learn that later.
 When you finish, don’t forget to push it up to GitHub!
+
+Colors and Font Styles
+
+Font used
+Roboto
+
+Dark background color (hero and footer)
+#1F2937
+
+Hero main text ("this website is awesome")
+
+Size: 48px
+
+Color: #F9FAF8
+
+Weight: 900
+
+Hero secondary text, header link text
+
+Size: 18px
+
+Color: #E5E7EB
+
+Hero logo text
+
+Size: 24px
+
+Color: #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+Information header text
+
+Size: 36px
+
+Color: #1F2937
+
+Weight: 900
+
+Quote section background color
+#E5E7EB
+
+Quote text
+
+Size: 36px
+
+Color: #1F2937
+
+Weight: 300

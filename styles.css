@@ -12,10 +12,9 @@ body {
     line-height: 1.5;
     color: #f9faf8;
     background-color: #1f2937;
-}
-
-img {
-    max-width: 100%;
+    margin: 16px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .navbar {
@@ -25,4 +24,55 @@ img {
 
 .navbar .container {
     display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    color: #E5E7EB;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header .container {
+    display: flex;
+    min-width: 120px;
+    gap: 16px;
+    align-items: center;
+}
+
+header .container img {
+    flex: 1 0 auto;
+    height: 200px;
+    width: 300px;
+}
+
+header .container .text {
+    display: flex;
+    flex-direction: column;
+    border: black;
+    font-size: medium;
+
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 8px;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    border: none;   
+    outline: none;
 }
