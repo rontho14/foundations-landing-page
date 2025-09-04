@@ -15,18 +15,25 @@ body {
     margin: 16px;
     margin-left: 120px;
     margin-right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar {
     height: 60px;
-    
+    width: 100%;
+    align-self: stretch;
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    align-self: stretch; /* allow it to span across */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 ul {
     display: flex;
     gap: 8px;
@@ -75,4 +82,13 @@ button {
     color: white;
     border: none;   
     outline: none;
+}
+
+.section--light  { 
+    background: white 
+}
+
+.section--grey {
+    background: #E5E7EB; 
+    color: #1F2937; 
 }
